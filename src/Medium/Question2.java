@@ -2,7 +2,7 @@ package Medium;
 
 import util.ListNode;
 
-public class AddTwoNumbers {
+public class Question2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);

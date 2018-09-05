@@ -3,7 +3,7 @@ package Medium;
 import java.lang.reflect.Array;
 import java.util.*;
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class Question3 {
 
     public int lengthOfLongestSubstring(String s) {
         if(s == null || s == "")

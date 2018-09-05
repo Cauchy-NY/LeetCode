@@ -1,6 +1,6 @@
 package Easy;
 
-public class TwoSum {
+public class Question1 {
 	
 	public static int[] twoSum(int[] nums, int target) {
         

@@ -16,8 +16,8 @@ public class Question105 {
             if (inorder[i] == root.val)
                 inIndex = i;
         }
-        root.left = backtrack(preStart + 1, inStart, inIndex - 1, preorder, inorder);
-        root.right = backtrack(preStart + inIndex - inStart + 1, inIndex + 1, inEnd, preorder, inorder);
+        root.left = backtrack(preStart+1, inStart, inIndex-1, preorder, inorder);
+        root.right = backtrack(preStart+(inIndex-inStart)+1, inIndex+1, inEnd, preorder, inorder);
         return root;
     }
 }

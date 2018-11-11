@@ -3,7 +3,7 @@ package util;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Test {
+public class Test implements Cloneable {
 
     public static void main(String[] args) {
         Pattern p = Pattern.compile("-?\\d+");

@@ -1,4 +1,4 @@
-package Easy;
+package Medium;
 
 import util.ListNode;
 import util.TreeNode;

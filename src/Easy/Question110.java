@@ -2,7 +2,7 @@ package Easy;
 
 import util.TreeNode;
 
-public class Question {
+public class Question110 {
     public boolean isBalanced(TreeNode root) {
         if (root == null)
             return true;

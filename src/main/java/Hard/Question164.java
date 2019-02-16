@@ -44,6 +44,16 @@ public class Question164 {
         maxGap = Math.max(maxGap, max - previous); // updata the final max value gap
         return maxGap;
     }
+    /**
+     * 最后统计时有个比较疑惑的问题，评论区也给出了解答：
+     * The maximum gap will be no smaller than ceiling[(max - min ) / (N - 1)].
+     * 
+     * This is because sum of gaps = max-min.
+     * We have N-1 gaps in an array that contain N elements.
+     * So if every gap is smaller than [(max - min ) / (N - 1)].
+     * Then sum of gaps < (N-1)*[(max-min) / (N-1)]=max-min.
+     * This is not possible since sum of gaps = max-min.
+     */
 
 //    // 计数排序空间复杂度为O(n+k)，k可能很大，故不行
 //    public int maximumGap(int[] nums) {

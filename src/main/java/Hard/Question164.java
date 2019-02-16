@@ -47,7 +47,7 @@ public class Question164 {
     /**
      * 最后统计时有个比较疑惑的问题，评论区也给出了解答：
      * The maximum gap will be no smaller than ceiling[(max - min ) / (N - 1)].
-     * 
+     *
      * This is because sum of gaps = max-min.
      * We have N-1 gaps in an array that contain N elements.
      * So if every gap is smaller than [(max - min ) / (N - 1)].

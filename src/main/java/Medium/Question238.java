@@ -7,7 +7,7 @@ public class Question238 {
 
         int[] result = new int[nums.length];
         result[0] = 1;
-        for (int i = 0; i < nums.length; i++)
+        for (int i = 1; i < nums.length; i++)
             result[i] = result[i-1] * nums[i-1];
 
         int right = 1;
@@ -17,6 +17,5 @@ public class Question238 {
         }
 
         return result;
-
     }
 }

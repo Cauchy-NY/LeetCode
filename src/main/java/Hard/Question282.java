@@ -30,7 +30,7 @@ public class Question282 {
             else {
                 backtrack(res, path + "+" + cur, num, target, i + 1, eval + cur , cur);
 
-                backtrack(res, path + "-" + cur, num, target, i + 1, eval -cur, -cur);
+                backtrack(res, path + "-" + cur, num, target, i + 1, eval - cur, -cur);
 
                 backtrack(res, path + "*" + cur, num, target, i + 1, eval - multed + multed * cur, multed * cur);
             }

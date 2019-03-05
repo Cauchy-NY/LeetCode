@@ -1,6 +1,6 @@
 package Easy;
 
-import util.MyQueue;
+import Design.MyQueue;
 
 public class Question232 {
     public static void main(String[] args) {

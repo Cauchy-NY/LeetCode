@@ -1,6 +1,6 @@
 package Medium;
 
-import util.Trie;
+import Design.Trie;
 
 public class Question208 {
     public static void main(String[] args) {

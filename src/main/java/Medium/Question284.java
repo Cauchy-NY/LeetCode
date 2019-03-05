@@ -1,6 +1,6 @@
 package Medium;
 
-import util.PeekingIterator;
+import Design.PeekingIterator;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
 package Easy;
 
-import util.MyStack;
+import Design.MyStack;
 
 public class Question225 {
     public static void main(String[] args) {

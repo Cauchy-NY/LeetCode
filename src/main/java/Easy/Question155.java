@@ -1,6 +1,6 @@
 package Easy;
 
-import util.MinStack;
+import Design.MinStack;
 
 public class Question155 {
     public static void main(String[] args) {

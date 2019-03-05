@@ -1,4 +1,4 @@
-package util;
+package Design;
 
 public class Trie {
 

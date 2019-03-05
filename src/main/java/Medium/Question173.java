@@ -1,6 +1,6 @@
 package Medium;
 
-import util.BSTIterator;
+import Design.BSTIterator;
 import util.TreeNode;
 
 public class Question173 {

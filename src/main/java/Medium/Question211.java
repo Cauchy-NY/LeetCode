@@ -1,6 +1,6 @@
 package Medium;
 
-import util.WordDictionary;
+import Design.WordDictionary;
 
 public class Question211 {
     public static void main(String[] args) {

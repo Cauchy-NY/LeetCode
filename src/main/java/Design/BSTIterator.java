@@ -1,4 +1,6 @@
-package util;
+package Design;
+
+import util.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

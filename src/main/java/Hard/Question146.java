@@ -1,6 +1,6 @@
 package Hard;
 
-import util.LRUCache;
+import Design.LRUCache;
 
 public class Question146 {
 

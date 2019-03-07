@@ -5,7 +5,7 @@ package Design;
  */
 public class NumArray2 {
 
-    private SegmentTreeNode root = null;
+    private SegmentTreeNode root;
 
     public NumArray2(int[] nums) {
         root = buildTree(nums, 0, nums.length-1);
@@ -50,7 +50,7 @@ public class NumArray2 {
         return sumRange(root, i, j);
     }
 
-    public int sumRange(SegmentTreeNode root, int start, int end) {
+    private int sumRange(SegmentTreeNode root, int start, int end) {
         if (root.end == end && root.start == start) {
             return root.sum;
         } else {

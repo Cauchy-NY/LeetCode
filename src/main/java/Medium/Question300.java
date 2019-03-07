@@ -28,7 +28,7 @@ public class Question300 {
         }
         return left;
     }
-    
+
     // 建立一个大小与 nums 长度相等的数组 maxLens，用于记录每个 nums 最长长度，
     // 即 maxLens[i] 表示nums 第 0 个到第 i 个元素中以 nums[i]为最大值的最长子序列长度
     public int lengthOfLIS_2(int[] nums) {

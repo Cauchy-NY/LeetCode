@@ -6,7 +6,6 @@ public class Question312 {
         int n = 1;
         for (int x : iNums) if (x > 0) nums[n++] = x;
         nums[0] = nums[n++] = 1;
-
         int[][] memo = new int[n][n];
         return burst(memo, nums, 0, n - 1);
     }

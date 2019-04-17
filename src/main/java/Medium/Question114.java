@@ -7,16 +7,35 @@ import java.util.List;
 
 public class Question114 {
 
-    private TreeNode prev = null;
+    private TreeNode next = null;
 
     public void flatten(TreeNode root) {
         if (root == null)
             return;
         flatten(root.right);
         flatten(root.left);
-        root.right = prev;
+        root.right = next;
         root.left = null;
-        prev = root;
+        next = root;
+    }
+
+    public void flatten_2(TreeNode root) {
+        if (root == null) return;
+        TreeNode cur = root;
+        while (cur != null) {
+            if (cur.left == null) {
+                cur = cur.right;
+                continue;
+            }
+            TreeNode predecessor = cur.left;
+            while (predecessor != null) {
+                if (predecessor.right == null) break;
+                predecessor = predecessor.right;
+            }
+            predecessor.right = cur.right;
+            cur.right = cur.left;
+            cur.left = null;
+        }
     }
 
 //    // 没太能看懂这道题意思，简单的以为按大小展开

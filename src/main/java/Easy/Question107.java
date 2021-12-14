@@ -1,6 +1,6 @@
 package Easy;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;

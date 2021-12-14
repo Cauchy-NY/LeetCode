@@ -1,6 +1,6 @@
 package Hard;
 
-import util.Point;
+import utils.Point;
 
 import java.util.HashMap;
 import java.util.Map;

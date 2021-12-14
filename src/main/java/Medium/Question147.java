@@ -1,6 +1,6 @@
 package Medium;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question147 {
     public ListNode insertionSortList(ListNode head) {

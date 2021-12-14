@@ -1,7 +1,7 @@
 package Hard;
 
 import Design.Codec;
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question297 {
     public static void main(String[] args) {

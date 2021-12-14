@@ -1,6 +1,6 @@
 package Medium;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question61 {
     public ListNode rotateRight(ListNode head, int k) {

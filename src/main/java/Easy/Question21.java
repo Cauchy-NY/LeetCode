@@ -1,6 +1,6 @@
 package Easy;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

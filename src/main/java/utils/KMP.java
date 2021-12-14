@@ -1,4 +1,4 @@
-package util;
+package utils;
 
 public class KMP {
     public static int kmp(String str, String pattern) {

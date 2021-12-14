@@ -1,6 +1,6 @@
 package Easy;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question206 {
     // 三指针调转小箭头方向

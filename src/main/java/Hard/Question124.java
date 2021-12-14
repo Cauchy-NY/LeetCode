@@ -1,6 +1,6 @@
 package Hard;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question124 {
 

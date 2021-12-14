@@ -1,9 +1,6 @@
 package Easy;
 
-import util.ListNode;
-
-import java.util.HashSet;
-import java.util.Set;
+import utils.ListNode;
 
 public class Question160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

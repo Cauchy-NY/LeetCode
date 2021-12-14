@@ -1,10 +1,6 @@
-package util;
+package utils;
 
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import static java.util.Collections.*;
 
 public class Test implements Cloneable {
 

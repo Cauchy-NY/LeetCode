@@ -1,6 +1,6 @@
 package Easy;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {

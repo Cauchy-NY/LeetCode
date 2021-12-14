@@ -1,6 +1,6 @@
 package Hard;
 
-import util.Interval;
+import utils.Interval;
 
 import java.util.ArrayList;
 import java.util.List;

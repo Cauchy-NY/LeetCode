@@ -1,6 +1,6 @@
 package Medium;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question82 {
     public ListNode deleteDuplicates(ListNode head) {

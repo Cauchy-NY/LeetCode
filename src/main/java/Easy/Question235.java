@@ -1,6 +1,6 @@
 package Easy;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question235 {
     // 递归

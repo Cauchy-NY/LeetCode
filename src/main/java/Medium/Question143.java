@@ -1,6 +1,6 @@
 package Medium;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question143 {
     public void reorderList(ListNode head) {

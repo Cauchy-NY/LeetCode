@@ -1,6 +1,6 @@
 package Design;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

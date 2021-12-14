@@ -1,6 +1,6 @@
 package Medium;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {

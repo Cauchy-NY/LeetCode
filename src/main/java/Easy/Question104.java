@@ -1,6 +1,6 @@
 package Easy;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question104 {
     public int maxDepth(TreeNode root) {

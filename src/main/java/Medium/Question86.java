@@ -1,6 +1,6 @@
 package Medium;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question86 {
     public ListNode partition(ListNode head, int x) {

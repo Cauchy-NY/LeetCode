@@ -1,4 +1,4 @@
-package util;
+package utils;
 
 public class Point {
     public int x;

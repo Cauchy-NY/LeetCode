@@ -1,7 +1,7 @@
 package Medium;
 
-import util.ListNode;
-import util.TreeNode;
+import utils.ListNode;
+import utils.TreeNode;
 
 public class Question109 {
     public TreeNode sortedListToBST(ListNode head) {

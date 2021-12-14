@@ -1,7 +1,7 @@
 package Hard;
 
 import Design.SummaryRanges;
-import util.Interval;
+import utils.Interval;
 
 import java.util.List;
 

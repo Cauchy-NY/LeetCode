@@ -1,6 +1,6 @@
 package Hard;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question99 {
     // 核心想法：正确的二叉搜索树一定中序遍历一定是顺序排列的

@@ -1,6 +1,6 @@
 package Hard;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question25 {
     public ListNode reverseKGroup(ListNode head, int k) {

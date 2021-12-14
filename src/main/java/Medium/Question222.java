@@ -1,6 +1,6 @@
 package Medium;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question222 {
     // 1 << h == 1(root)+左子树节点数（此时左子树为完美二叉树）

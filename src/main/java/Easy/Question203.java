@@ -1,6 +1,6 @@
 package Easy;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question203 {
     public ListNode removeElements(ListNode head, int val) {

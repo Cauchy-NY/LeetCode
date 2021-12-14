@@ -1,6 +1,6 @@
 package Medium;
 
-import util.TreeLinkNode;
+import utils.TreeLinkNode;
 
 public class Question116 {
     public void connect(TreeLinkNode root) {

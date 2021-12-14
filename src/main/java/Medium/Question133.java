@@ -1,6 +1,6 @@
 package Medium;
 
-import util.UndirectedGraphNode;
+import utils.UndirectedGraphNode;
 
 import java.util.HashMap;
 import java.util.Map;

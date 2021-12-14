@@ -1,8 +1,6 @@
 package Easy;
 
-import util.TreeNode;
-
-import java.util.Stack;
+import utils.TreeNode;
 
 public class Question101 {
     public boolean isSymmetric(TreeNode root) {

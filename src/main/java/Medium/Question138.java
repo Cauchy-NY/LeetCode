@@ -1,6 +1,6 @@
 package Medium;
 
-import util.RandomListNode;
+import utils.RandomListNode;
 
 import java.util.HashMap;
 import java.util.Map;

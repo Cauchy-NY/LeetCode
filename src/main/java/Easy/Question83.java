@@ -1,6 +1,6 @@
 package Easy;
 
-import util.ListNode;
+import utils.ListNode;
 
 public class Question83 {
     public ListNode deleteDuplicates(ListNode head) {

@@ -1,7 +1,7 @@
 package Medium;
 
 import Design.BSTIterator;
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question173 {
 

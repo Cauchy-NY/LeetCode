@@ -1,6 +1,6 @@
 package Medium;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question98 {
     public boolean isValidBST(TreeNode root) {

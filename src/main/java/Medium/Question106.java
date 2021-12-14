@@ -1,6 +1,6 @@
 package Medium;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question106 {
     public TreeNode buildTree(int[] inorder, int[] postorder) {

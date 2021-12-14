@@ -1,6 +1,6 @@
 package Hard;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 import java.util.*;
 

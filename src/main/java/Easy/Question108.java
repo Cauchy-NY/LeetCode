@@ -1,6 +1,6 @@
 package Easy;
 
-import util.TreeNode;
+import utils.TreeNode;
 
 public class Question108 {
     public TreeNode sortedArrayToBST(int[] nums) {

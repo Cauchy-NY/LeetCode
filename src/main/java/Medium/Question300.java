@@ -7,9 +7,9 @@ public class Question300 {
     // 而这种思路的 maxLens[i] 代表 nums 中第0个到第 i 个元素最大长度为 i 的最小值
     // 是多少（注意最小值是 nums数组中的某个数）
     public int lengthOfLIS(int[] nums) {
-        int[] maxLens = new int[nums.length+1];
+        int[] maxLens = new int[nums.length + 1];
         int maxLen = 0;
-        for (int num: nums) {
+        for (int num : nums) {
             int len = binarySearch(num, maxLen, maxLens);
             maxLen = Math.max(len, maxLen);
             maxLens[len] = num;
@@ -20,11 +20,12 @@ public class Question300 {
     private int binarySearch(int num, int maxLen, int[] maxLens) {
         int left = 1, right = maxLen;
         while (left <= right) {
-            int mid = left + (right-left) / 2;
-            if (maxLens[mid] < num)
+            int mid = left + (right - left) / 2;
+            if (maxLens[mid] < num) {
                 left = mid + 1;
-            else
+            } else {
                 right = mid - 1;
+            }
         }
         return left;
     }
@@ -35,10 +36,12 @@ public class Question300 {
         int[] maxLens = new int[nums.length];
         int maxLen = 0;
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < i; j++)
-                if (nums[i] > nums[j])
-                    maxLens[i] = Math.max(maxLens[j]+1, maxLens[i]);
-            maxLen = Math.max(maxLen, maxLens[i]+1);
+            for (int j = 0; j < i; j++) {
+                if (nums[i] > nums[j]) {
+                    maxLens[i] = Math.max(maxLens[j] + 1, maxLens[i]);
+                }
+            }
+            maxLen = Math.max(maxLen, maxLens[i] + 1);
         }
         return maxLen;
     }

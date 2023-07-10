@@ -61,4 +61,36 @@ public class Question148 {
         }
         return dummyHead.next;
     }
+
+    // 选择排序 + 头插法
+    public ListNode sortListWithSelect(ListNode head) {
+        ListNode newHead = new ListNode(0);
+        ListNode warpHead = new ListNode(0);
+        warpHead.next = head;
+
+        ListNode pre = warpHead, maxPre = warpHead;
+        ListNode cur = warpHead.next, max = warpHead.next;
+
+        while (cur != null) {
+            while (cur != null) {
+                if (cur.val > max.val) {
+                    maxPre = pre;
+                    max = cur;
+                }
+                pre = cur;
+                cur = cur.next;
+            }
+
+            maxPre.next = max.next;
+            max.next = newHead.next;
+            newHead.next = max;
+
+            pre = warpHead;
+            maxPre = warpHead;
+            cur = warpHead.next;
+            max = warpHead.next;
+        }
+
+        return newHead.next;
+    }
 }
